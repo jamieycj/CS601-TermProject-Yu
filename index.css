@@ -1,0 +1,13 @@
+blockquote {
+    color: #777;
+    display: block;
+    padding: 15px 20px;
+    width: 80%;
+    position: relative;
+    border-left: 15px solid #79BFA1;
+    border-right: 2px solid #79BFA1;
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 2px 2px 15px #ddd;
+    margin: 0 auto;
+}

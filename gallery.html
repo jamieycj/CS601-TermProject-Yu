@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link href="./css/gallery.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.global.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="show-menu" role="button" aria-pressed="true">
+        <label for="show-menu" class="open">
+            <span class="fa fa-bars"></span>
+        </label>
+        <label for="show-menu" class="close">
+            <span class="fa fa-times"></span>
+        </label>
+        <ul id="menu">
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+            <li>
+                <a href="./resume.html">Chenjie</a>
+            </li>
+            <li>
+                <a href="./sam.html">Sam</a>
+            </li>
+            <li>
+                <a href="./gabriel.html">Gabriel</a>
+            </li>
+            <li>
+                <a href="./teemo.html">Teemo</a>
+            </li>
+            <li>
+                <a href="./friends.html">Friendship</a>
+            </li>
+            <li>
+                <a href="./contact.html">Contact Us</a>
+            </li>
+            <li>
+                <a href="./serotonin.html">Serotonin Booster</a>
+            </li>
+            <li>
+                <a class="active" href="./gallery.html">Gallery</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="banner">
+        <div id="header">
+            <h1>More Photos</h1>
+            <p class="sub">In case you are not done with them yet...</p>
+        </div>
+    </div>
+
+    <div id="content">
+        <!-- <div class="pageitem"> -->
+        <main id="baby-photo-container"></main>
+        <script type="module" src="./gallery.js"></script>
+        <!-- </div> -->
+    </div>
+
+    <div id="footer">
+        <p>Copyright &copy; Chenjie Yu 2022. All rights reserved.</p>
+    </div>
+    <noscript>Your browser does not support JavaScript</noscript>
+</body>
+
+</html>

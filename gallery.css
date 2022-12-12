@@ -1,0 +1,66 @@
+* {
+    /* border-style: solid;*/
+    border-color: black;
+}
+
+#photo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#photo-button-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hideMessage {
+    display: none;
+}
+
+h3 {
+    color: red;
+    font: normal 16px/150% 'Mako', sans-serif;
+    margin-left: 40%;
+}
+
+input {
+    border-style: none;
+    background-color: white;
+    color: dimgray;
+    font-size: 3rem;
+}
+
+input:hover {
+    color: goldenrod
+}
+
+.baby-photo {
+    width: 45vw;
+    height: auto;
+    min-width: 250px;
+    max-width: 600px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5rem 15rem;
+}
+
+figcaption {
+    font-family: "Bradley Hand", "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    margin: 1rem;
+}
+
+#image {
+    width: 85%;
+    height: auto;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-family: Chalkduster, fantasy, "Bradley Hand", cursive;
+    color: cadetblue;
+}
