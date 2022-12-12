@@ -130,4 +130,4 @@ The work of phase 3-6 are standalone applications, however, similar techniques l
 - `Store all source codes at` [Github](https://github.com/jamieycj/CS601-TermProject-Yu)
 - `Web host the website at` [Netlify](https://cs601-termproject-yu.netlify.app)
 - `Include Final Project Demo Checklist`
-- 
+
